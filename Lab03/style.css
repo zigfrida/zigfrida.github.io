@@ -1,0 +1,121 @@
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+    display: flex;
+}
+
+#main_content {
+    /* width: 450px; */
+    /* display: flex; */
+    margin-left: calc(65% - 450px);
+}
+
+#search_container {
+    width: 510px;
+    padding: 30px;
+    padding-top: 7px;
+    border-radius: 3px;
+    border: 1px solid #dadada;
+}
+
+#search_container h2 {
+    margin-top: 10px;
+}
+
+#search_container input {
+    width: calc(100% - 170px);
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid #dadada;
+    margin-right: 10px;
+}
+
+.artist {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 95px;
+    /* padding-bottom: 20px; */
+    border-radius: 2px;
+    border: 0.5px solid #dadada;
+}
+
+.artist_text {
+    float: left;
+    padding-top: 17px;
+    padding-left: 7px;
+}
+
+.artist p {
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+}
+
+.artist h3 {
+    margin: 0;
+}
+
+.artist_image {
+    float: left;
+}
+
+.artist_image img {
+    height: 70px;
+    width: auto;
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+
+.artist:hover {
+    background-color: #f7f8fa;
+    cursor: pointer;
+}
+
+button{
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 140px;
+    margin-top: 3px;
+}
+
+#toggleForm{
+    float: left;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#addArtistForm{
+    display: none;
+    padding-top: 20px;
+    width: 75%;
+    padding-left: 12%; 
+}
+
+#addArtistForm input{
+    width: 100%;
+    text-align: center;
+}
+
+#addArtistForm button{
+    margin-left: 35%;   
+}
+
+#addArtistForm input::placeholder {
+    text-align: center;
+}
+
+.delete{
+    margin-top: 25px;
+    margin-right: 20px; 
+    float: right;
+    width: 70px;
+    color: white;
+    background-color:#ff2b3d;
+    border-color: #ff2b3d;
+}
