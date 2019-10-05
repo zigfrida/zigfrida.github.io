@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab4 Comp4711</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script defer src="javascript.js"></script>
+</head>
+
+<body onload="loadStoredArtists()">
+    <div id="main_content">
+        <div id="search_container">
+            <h2>Artist Directory</h2>
+            <input type="text" id="searchField">
+            <button onclick="toggleAddArtist()" type="button" id="togglelForm">Add artist</button>
+            <button onclick="onSearch()" type="button">Search</button>
+            <div id="addArtistForm">
+                <input type="text" id="artistName" placeholder="Artist Name" maxlength="40" required>
+                <input type="text" id="artistAbout" placeholder="About Artist" maxlength="40" required>
+                <input type="text" id="artistImage" placeholder="Image url" required>
+                <button type="button" onclick="addArtist()">Add</button>
+            </div>
+        </div>
+        <div id="artist_series">
+
+        </div>
+    </div>
+</body>
+
+</html>
